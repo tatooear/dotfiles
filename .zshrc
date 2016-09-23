@@ -43,7 +43,6 @@ export GREP_COLORS="ms=01;31:mc=01;31:sl=:cx=:fn=36:ln=32:bn=32:se=01;33"
 #eval "$(anyenv init -)"
 #export PATH=$PATH:/home/owner/program/android/android-sdk-linux/tools
 #export HOME=/home
-#export HOME=/c/Users/tokushou/gnupack/home
 #export PATH="$PATH:/c/Go/bin"
 
 #export GOROOT=/usr/bin/go
@@ -200,8 +199,6 @@ alias hi="history -nir 0"
 # alias ud="bd"
 alias pd="cd -"
 alias peco="peco --initial-filter migemo"
-
-#alias chrome="cygstart C:\Users\tokushou\AppData\Local\Google\Chrome\Application\chrome.exe";
 
 #alias up="source ~/.zsh.d/up.sh"
 
