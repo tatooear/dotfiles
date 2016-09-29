@@ -1,0 +1,32 @@
+{
+    "CustomFilter": {
+        "default": {
+            "Cmd": "/bin/pgrepper",
+            "Args": ["$QUERY", "--dummy=last"],
+            "BufferThreshold": 10000
+        },
+        "migemo": {
+            "Cmd": "/bin/pgrepper",
+            "Args": ["--migemo", "$QUERY", "--dummy=last"],
+            "BufferThreshold": 100000
+        }
+    },
+    "SingleKeyJump": {
+        "ShowPrefix": true
+    },
+    "Keymap": {
+        "@": "peco.ToggleSingleKeyJump",
+        "C-g": "peco.Cancel",
+        "C-v": "peco.ScrollPageDown",
+        "M-v": "peco.ScrollPageUp",
+        "C-f": "peco.ScrollRight",
+        "C-b": "peco.ScrollLeft",
+        "M-a": "peco.SelectAll",
+        "Pgup": "peco.ScrollPageUp",
+        "Pgdn": "peco.ScrollPageDown",
+        "C-l": "peco.RefreshScreen",
+        "C-d": "peco.DeleteBackwardWord",
+        "C-k": "peco.DeleteAll",
+        "C-u": "peco.DeleteAll"
+    }
+}
